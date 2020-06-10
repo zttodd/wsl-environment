@@ -20,8 +20,15 @@ Finally, let's install the `lts` version of Node into the location set in the pr
 
 `bash n lts`  
 
-## Set the PATH  
+### Set the PATH  
 
 Add the following line to your shell's configuration file to update the PATH to find the Node installations. This will need to be set _after_ the `N_PREFIX` export:  
 
 `export PATH=$N_PREFIX/bin:$PATH`  
+
+### Checking the installation  
+
+Try out your new Node/npm installation by checking the versions on each:  
+
+`node -v`  
+`npm -v`  
